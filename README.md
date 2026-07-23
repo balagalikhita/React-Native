@@ -25,6 +25,8 @@
 9. Moved the index and explore page from the tabs folder to app folder (Moving the pages simplified the route structure.)
 10. Renamed \_layout to x_layout disables its special layout behavior
 11. Added link navigation in index file
+12. Expo Router works similarly to Next.js App Router because both use file-based routing.
+13. To change the headers of the screen we have to do it in apps/\_layout page
 
 #### Tricks
 
