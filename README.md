@@ -27,6 +27,9 @@
 11. Added link navigation in index file
 12. Expo Router works similarly to Next.js App Router because both use file-based routing.
 13. To change the headers of the screen we have to do it in apps/\_layout page
+14. (tabs) -> for tabs down the app
+15. icons -> https://icons.expo.fyi
+16. themes change in tabs
 
 #### Tricks
 
