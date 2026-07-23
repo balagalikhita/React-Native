@@ -18,3 +18,11 @@
 2. install expo go app in mobile
 3. npx expo start
 4. app->tabs->index
+5. Added style sheets
+6. Added new images
+7. added ImageBackground component from react-native and added image source
+8. made changes in app.json file where changed icon and splash
+
+#### Tricks
+
+select the text-> ctrl+D -> ctrl+D the cursor will move to the same text and we can rename at all once
