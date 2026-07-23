@@ -22,7 +22,11 @@
 6. Added new images
 7. added ImageBackground component from react-native and added image source
 8. made changes in app.json file where changed icon and splash
+9. Moved the index and explore page from the tabs folder to app folder (Moving the pages simplified the route structure.)
+10. Renamed \_layout to x_layout disables its special layout behavior
+11. Added link navigation in index file
 
 #### Tricks
 
-select the text-> ctrl+D -> ctrl+D the cursor will move to the same text and we can rename at all once
+1. select the text-> ctrl+D -> ctrl+D the cursor will move to the same text and we can rename at all once
+2. copy the text-> shift+alt+downarrow -> It will paste down
