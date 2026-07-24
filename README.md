@@ -27,9 +27,33 @@
 11. Added link navigation in index file
 12. Expo Router works similarly to Next.js App Router because both use file-based routing.
 13. To change the headers of the screen we have to do it in apps/\_layout page
-14. (tabs) -> for tabs down the app
+14. (tabs) -> for tabs down the app -> created (coffee)
 15. icons -> https://icons.expo.fyi
 16. themes change in tabs
+17. Appearance :The Appearance module exposes information about the user's appearance preferences, such as their preferred system color scheme (light or dark).
+18. List Views
+
+- React Native provides a suite of components for presenting lists of data. Generally, you'll want to use either FlatList or SectionList.
+
+### The FlatList
+
+- The FlatList component displays a scrolling list of changing, but similarly structured, data. FlatList works well for long lists of data, where the number of items might change over time. Unlike the more generic ScrollView, the FlatList only renders elements that are currently showing on the screen, not all the elements at once.
+
+- The FlatList component requires two props: data and renderItem. data is the source of information for the list. renderItem takes one item from the source and returns a formatted component to render.
+
+- This example creates a basic FlatList of hardcoded data. Each item in the data props is rendered as a Text component. The FlatListBasics component then renders the FlatList and all Text components.
+  Ex: normal list
+
+### SectionList
+
+If you want to render a set of data broken into logical sections, maybe with section headers, similar to UITableView on iOS, then a SectionList is the way to go.
+Ex: contact list
+
+19. SafeAreaView
+
+- SafeAreaView renders nested content and automatically applies padding to reflect the portion of the view that is not covered by navigation bars, tab bars, toolbars, and other ancestor views. Moreover, and most importantly, Safe Area's paddings reflect the physical limitation of the screen, such as rounded corners or camera notches (i.e. the sensor housing area on iPhone 13).
+
+Example
 
 #### Tricks
 
